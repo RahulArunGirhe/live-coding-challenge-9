@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="ab"></p>
+    <script>
+      let ram = { name: "Ram", age: "25", yuga: "tretra" };
+      let krishna = { Name: "Krishna", age: 31, yuga: "dwarpa" };
+      if (ram.age > krishna.age) {
+        document.getElementById("ab").innerHTML =
+          ram.name + " is elder than krishna";
+      } else {
+        document.getElementById("ab").innerHTML =
+          krishna.Name + " is elder than ram";
+      }
+    </script>
+  </body>
+</html>
